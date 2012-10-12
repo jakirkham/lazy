@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.1'
+version = '1.2'
 
 setup(name='lazy',
       version=version,
@@ -23,9 +23,9 @@ setup(name='lazy',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=True,
-      use_2to3=True,
       test_suite='lazy.tests',
       install_requires=[
           'setuptools',
       ],
+      use_2to3=True,
 )
